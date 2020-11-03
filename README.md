@@ -33,7 +33,7 @@ The project uses the data: tweets and their labels and supervised machine learni
 ## Getting Started
 
 1. Clone this repo.
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+2. Raw Data is being kept [here](https://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip) within this repo.
 
     *If using offline data mention that and how they may obtain the data from the froup)*
     
