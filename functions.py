@@ -78,16 +78,16 @@ def model_tuner(vectorizer, n_features, stop_words, ngram_range, classifier,x_tr
     sentiment_fit =PL.fit(x_train, y_train)
     return sentiment_fit
   
-def performance_report(model,x_validation,y_validation) :
-    y_pred=model.predict(x_validation)
-    conf_matrix=pd.DataFrame(np.array(confusion_matrix(y_validation, y_pred, labels=[0,1])), 
+def performance_report(model,x,y) :
+    y_pred=model.predict(x).astype('int32')
+    conf_matrix=pd.DataFrame(np.array(confusion_matrix(y, y_pred, labels=[0,1])), 
     index=['True Negatives', 'True Positives'],columns=['Predicted Negatives','Predicted Positives'])
-    accuracy = accuracy_score(y_validation, y_pred)
+    accuracy = accuracy_score(y, y_pred)
     target_names=["Negative","Positive"]
-    performance_report=classification_report(y_validation, y_pred, target_names=target_names,output_dict=True)
+    performance_report=classification_report(y, y_pred, target_names=target_names,output_dict=True)
     print("\n")
     print(conf_matrix)
     print("\n")
-    print(classification_report(y_validation, y_pred, target_names=target_names))
+    print(classification_report(y, y_pred, target_names=target_names))
     return(y_pred,conf_matrix,accuracy,performance_report)
     
