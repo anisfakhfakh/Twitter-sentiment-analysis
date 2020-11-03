@@ -33,35 +33,13 @@ The project uses the data: tweets and their labels and supervised machine learni
 ## Getting Started
 
 1. Clone this repo.
-2. Raw Data is being kept [here](https://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+2. Raw Data is being kept [here](https://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip) within this link.
+3. Extract the csv file training.1600000.processed.noemoticon.csv in the Data folder.
+4. Imports are being kept [here](https://github.com/anisfakhfakh/Twitter-sentiment-analysis/blob/main/imports.py)
+5. The notebook contains the whole project useing ressources from the Data folder and .py files.
 
 
-## Contributing DSWG Members
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+## Credits
+1. https://github.com/tthustla for the clear steps he used through the project which helped me succeed my first NLP project
+2. Data credits by Stanford university
