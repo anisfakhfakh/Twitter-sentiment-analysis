@@ -43,3 +43,5 @@ The project uses the data: tweets and their labels and supervised machine learni
 ## Credits
 1. https://github.com/tthustla for the clear steps he used through the project which helped me succeed my first NLP project
 2. Data credits by Stanford university
+
+# [Full Report](https://drive.google.com/file/d/1mQyEo7B1EIN7iaZXUDSzKWji6MVWG37X/view)
