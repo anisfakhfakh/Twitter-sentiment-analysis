@@ -5,7 +5,7 @@ My other projects will be porgressively uploaded at the [main GitHub repo](https
 #### -- Project Status: [Active]
 
 ## Project Objective
-The objective of this peoject is to build a model capable of predicting the sentiment of a tweet from a labeled dataset using Machine learning and natural language processing techniques. 
+The objective of this project is to build a model capable of predicting the sentiment of a tweet from a labeled dataset using Machine learning and natural language processing techniques. 
 
 
 ### Methods Used
@@ -28,7 +28,7 @@ The objective of this peoject is to build a model capable of predicting the sent
 * etc. 
 
 ## Project Description
-The project uses the data: tweets and their labels and supervised machine learning techniques in order to predict a binary Sentiment state (positive or negative). The learning phase is implmented after the prorocessing: cleaning + tokeninzing + vectorizing
+The project uses the data: tweets and their labels and supervised machine learning techniques in order to predict a binary Sentiment state (positive or negative). The learning phase is implemented after the preprocessing: cleaning + tokeninzing + vectorizing
 
 ## Getting Started
 
